@@ -1,0 +1,341 @@
+.commodity{
+  padding-bottom:1rem;
+}
+.cup{
+  height:0.4rem;
+  background:#ff9900;
+}
+.ls{
+  float:left;
+  background: rgba(0,0,0,0.5) url(../../../static/a.png) no-repeat 50% 50%;
+  background-size:0.16rem 0.28rem;
+  margin-left:0.23rem;
+}
+.ry{
+  float:right;
+  background: rgba(0,0,0,0.5) url(../../../static/d.png) no-repeat 50% 50%;
+  background-size:0.26rem 0.06rem;
+  margin-right:0.28rem;
+}
+.rz{
+  float:right;
+  background: rgba(0,0,0,0.5) url(../../../static/b.png) no-repeat 50% 50%;
+  background-size:0.29rem 0.27rem;
+  margin-right:0.41rem;
+}
+.ls,.ry,.rz{
+  display:block;
+  width:0.56rem;
+  height:0.56rem;
+  border-radius:50%;
+  margin-top:0.08rem;
+}
+/*价格*/
+.cost{
+  padding-top:0.08rem;
+  width:100%;
+  padding-left:0.29rem;
+  border-top:1px solid #eee;
+}
+.costUp{
+  overflow:hidden;
+  height:0.78rem;
+}
+.costUp p{
+  float:left;
+  width:75.8%;
+  font-size:0.3rem;
+  line-height:0.37rem;
+  color:#333;
+}
+.costUp span{
+  float:left;
+  font-size:0.16rem;
+  color:#e71f19;
+  display:block;
+  width:23%;
+  height:0.21rem;
+  background:url(../../../static/images/i.jpg) no-repeat 50% 0;
+  background-size:0.36rem 0.36rem;
+  text-align:center;
+  padding-top:0.45rem;
+  border-left: 1px solid #dddddd;
+}
+.costDo{
+  overflow:hidden;
+  margin-top:0.14rem;
+}
+.costDo div{
+  float:left;
+}
+.dLeft{
+  width:24.9%;
+}
+.dLeft span:first-of-type{
+  display:block;
+  font-size:0.33rem;
+  color:#eb2222;
+  margin-bottom:0.18rem;
+}
+.dLeft b{
+  display:block;
+  color:#999999;
+  font-size:0.24rem;
+  text-decoration:line-through;
+}
+.dRight dl,.dRight ul{
+  overflow:hidden;
+}
+.dRight{
+  width:66%;
+  margin-bottom:0.2rem;
+}
+.dRight dd{
+  float:left;
+  width:0.7rem;
+  height:0.3rem;
+  margin-right:0.2rem;
+  background:#ff9900;
+  text-align:center;
+  line-height:0.3rem;
+  font-size:0.2rem;
+  color:#fff;
+}
+.dRight li{
+  float:left;
+  width:21%;
+  height:0.26rem;
+  border:2px solid #ff9900;
+  margin-right:3%;
+  margin-top:0.1rem;
+  font-size:0.2rem;
+  line-height:0.26rem;
+  text-align:center;
+  color:#ff9900;
+}
+@media screen and (min-width: 310px) and (max-width: 350px) {
+  .dRight li{
+    float:left;
+    width:20%;
+    height:0.26rem;
+    border:2px solid #ff9900;
+    margin-right:1%;
+    margin-top:0.1rem;
+    font-size:0.2rem;
+    line-height:0.26rem;
+    text-align:center;
+    color:#ff9900;
+  }
+  .dLeft{
+    width:20%;
+  }
+  .dRight ul{
+   margin-right:0;
+  }
+  .dRight{
+    width:80%;
+  }
+}
+.dRight ul li:last-of-type{
+  margin-right:0;
+}
+.division{
+  width:100%;
+  height:0.32rem;
+  background:#eeeeee;
+}
+.and{
+  width:100%;
+  overflow:hidden;
+}
+.and>ul{
+  overflow: hidden;
+  border-bottom:1px solid #dddddd;
+}
+.and>ul li{
+  text-align:center;
+  float:left;
+  width:50%;
+  font-size:0.26rem;
+  height:0.86rem;
+}
+.and>ul li a{
+  display:block;
+   width:40%;
+  margin:0.22rem auto 0 auto;
+  height:0.35rem;
+  text-align:center;
+  border-bottom:3px solid transparent;
+}
+.and>ul li .active{
+  color:#ff9900;
+  border-bottom:3px solid #ff9900;
+}
+.cdown{
+  overflow:hidden;
+  width:100%;
+  position:fixed;
+  bottom:0;
+  z-index:20;
+  height:0.97rem;
+  border-top:1px solid #dddddd;
+  background:#fff;
+}
+.cdown div{
+  float:left;
+  font-size:0.29rem;
+  height:100%;
+  line-height:0.97rem;
+  text-align:center;
+  color:#fff;
+}
+.cleft{
+  width:46.9%;
+}
+.cmiddle{
+  width:26.4%;
+  background:#ff9900;
+
+}
+.cright{
+  width:26.6%;
+  height:100%;
+  background:#eb2222;
+}
+.cleft span{
+  display:inline-block;
+  height:100%;
+  line-height:0.97rem;
+}
+.cleft span:first-of-type{
+  margin-left:0.3rem;
+  font-size:0.29rem;
+  color:#666666;
+}
+.cleft span:last-of-type{
+  font-size:0.29rem;
+  color:#eb2222;
+}
+/*商品详情*/
+.details div{
+  width:100%;
+  text-align:center;
+}
+/*购物车*/
+.additive{
+  position:fixed;
+  bottom:0.98rem;
+  z-index:20;
+  padding:0 0.29rem 0 0.42rem;
+  box-sizing:border-box;
+  width:100%;
+  background:#fff;
+}
+.addTop{
+}
+.keep{
+  position:fixed;
+  top:0;
+  z-index:10;
+  background:rgba(0,0,0,0.5)
+}
+.image{
+  position:relative;
+  top:-0.21rem;
+  float:left;
+  width:26.9%;
+  height:2.02rem;
+  border:0.07rem solid #dddddd;
+  border-radius:0.08rem;
+}
+.image img{
+  width:100%;
+  height:100%;
+}
+.addCost{
+  float:left;
+  margin-top:0.66rem;
+  margin-left:0.23rem;
+}
+.addCost span{
+  font-size:0.3rem;
+  color:#eb2222;
+}
+.addCost p{
+  font-size:0.25rem;
+  color:#333;
+}
+.addCost p:first-of-type{
+  line-height:0.44rem;
+}
+.quit{
+  float:right;
+  margin-top:0.29rem;
+  width:8.1%;
+  height:0.56rem;
+  background:url(../../../static/images/quit.jpg) no-repeat;
+  background-size:0.56rem 0.56rem;
+}
+.amount{
+  height:1.10rem;
+}
+.amount h6{
+  margin-top:0.11rem;
+  float:left;
+  font-size:0.3rem;
+  color:#333;
+}
+.amount div{
+  float:right;
+  display:flex;
+  width:27%;
+  margin-right:0.11rem;
+}
+.amount div span{
+  display:block;
+   width:25%;
+  height:0.5rem;
+  background:#999999;
+  text-align:center;
+  line-height:0.5rem;
+  font-size:0.4rem;
+  color:#fff;
+}
+.amount div b{
+  display:block;
+  width:50%;
+  height:0.46rem;
+  border-top:0.02rem solid #ddd;
+  border-bottom:0.02rem solid #ddd;
+  text-align:center;
+  line-height:0.46rem;
+  font-size:0.3rem;
+  color:#333;
+}
+.addSize{
+  height:1.38rem;
+}
+.addSize h6{
+  font-size:0.3rem;
+  color:#333;
+}
+.addSize ul{
+  width:100%;
+  margin-top:0.2rem;
+}
+.addSize li{
+  float:left;
+  padding:0 0.44rem 0 0.48rem;
+  height:0.45rem;
+  background:#dddddd;
+  margin-right:2.7%;
+  text-align:center;
+  line-height:0.45rem;
+  font-size:0.25rem;
+  color:#999999;
+  border-radius:0.1rem;
+}
+.addSize ul .ac{
+  background:#ff9900;
+  color:#ffffff;
+}

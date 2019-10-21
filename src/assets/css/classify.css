@@ -1,0 +1,88 @@
+
+.classify{
+ height:100%;
+}
+.navs{
+  height:100%;
+}
+.up{
+  padding-top:0.58rem;
+  height:0.8rem;
+  background:#ff9900;
+}
+.classify p{
+  overflow:hidden;
+  margin:0 auto;
+  width:68.8%;
+  height:0.6rem;
+  background:#fff;
+  opacity:0.7;
+  border-radius:0.1rem;
+}
+.classify input{
+  float:left;
+  width:84%;
+  height:100%;
+  padding-left:0.23rem;
+  border-radius:0.1rem;
+  color:#999;
+}
+.classify span{
+  float:left;
+  display:block;
+  width:11.5%;
+  height:100%;
+  background:url('../../../static/images/search.jpg') no-repeat 0 0.1rem;
+  background-size:0.34rem;
+}
+/*分类 左*/
+.left{
+  overflow:hidden;
+}
+.left dl{
+  width:31.2%;
+  height:100%;
+  background:#fafafa;
+}
+.left dd{
+  height:0.93rem;
+  text-align:center;
+  line-height:0.93rem;
+  font-size:0.28rem;
+  border-left:0.1rem solid transparent;
+}
+.left .bo{
+  background:#fff;
+  border-left:0.1rem solid #1d84a7
+}
+.left dl{
+  float:left;
+}
+.left .right{
+  width:68%;
+  float:right;
+}
+.right img{
+  width:1.65rem;
+  height:1.72rem;
+}
+.right li{
+  float:left;
+  margin-top:0.21rem;
+  margin-left:0.18rem;
+  border-radius:0.1rem;
+  text-align:center;
+  padding-top:0.15rem;
+  width:43%;
+  height:2.19rem;
+  border:3px solid #1d84a7;
+}
+.right li h6{
+  font-size:0.28rem;
+  color:#fff;
+  line-height:0.46rem;
+  text-align:center;
+  background:#1d84a7;
+  height:0.5rem;
+}
+

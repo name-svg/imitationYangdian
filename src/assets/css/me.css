@@ -1,0 +1,239 @@
+/*个人中心*/
+.center{
+  background:#f3f3f3;
+}
+.centerTop{
+  height:2.98rem;
+  background:#ff9900;
+  padding:0.73rem 0.48rem 0 0.29rem
+}
+.centerUp{
+  overflow:hidden;
+  text-align:center;
+}
+.centerUp h5{
+  float:left;
+  width:84.4%;
+  font-size:0.41rem;
+  color:#fafafa
+}
+.centerUp span:first-of-type{
+  float:left;
+  width:8%;
+  height:0.50rem;
+  background:url(../../../static/images/set_03.jpg) no-repeat;
+  background-size:0.5rem 0.5rem;
+}
+.centerUp span:last-of-type{
+  float:right;
+  width:7.6%;
+  height:0.47rem;
+  background:url(../../../static/images/leng_05.jpg) no-repeat;
+  background-size:0.53rem 0.47rem;
+}
+.centerDown{
+  position:relative;
+  padding-top:1.23rem;
+  width:100%;
+  text-align:center;
+}
+.centerDown span{
+  display:block;
+  margin-top:0.32rem;
+  font-size:0.32rem;
+}
+.centerDown div{
+  width:27.1%;
+  height:1.82rem;
+  margin:0 auto;
+  border-radius:50%;
+  background:#e6dfdf;
+  border:0.13rem solid #fff;
+}
+.collect{
+  width:100%;
+  height:0.80rem;
+  padding-top:1.79rem;
+  background:#fafafa;
+}
+.collect div{
+  height:0.81rem;
+}
+.collect span{
+  float:left;
+ display:block;
+  margin-left:0.35rem;
+  width:5.6%;
+  height:0.36rem;
+  background:url(../../../static/images/keep.png) no-repeat;
+  background-size:0.38rem 0.36rem;
+}
+.collect h5{
+  float:left;
+  font-size:0.33rem;
+  margin-left:0.24rem;
+}
+.line{
+  width:100%;
+  height:0.15rem;
+  background:#efeeee;
+}
+/*我的订单*/
+.order{
+  width:100%;
+  height:1.23rem;
+  border-bottom: 1px solid #b3b3b3;
+  background:#fafafa;
+}
+.order h5{
+  float:left;
+  font-size:0.33rem;
+  margin-left:0.46rem;
+  height:100%;
+  line-height:1.23rem;
+  color:#333;
+}
+.order span{
+  float:right;
+  font-size:0.33rem;
+  line-height:1.23rem;
+  color:#999999;
+}
+/*功能*/
+.choice span{
+  display:block;
+  width:100%;
+  height:0.48rem;
+  margin-top:0.45rem;
+}
+.choice {
+  height:1.88rem;
+  background:#fafafa;
+}
+.choice li{
+  float:left;
+  width:20%;
+}
+.choice li p{
+  padding-top:0.28rem;
+  width:100%;
+  font-size:0.23rem;
+  text-align:center;
+  color:#666666;
+}
+/*收货地址*/
+.address{
+  height:1.28rem;
+  background:#fafafa;
+}
+.address span{
+  font-size:0.33rem;
+  color:#999999;
+  margin-left:0.46rem;
+  line-height:1.28rem;
+}
+.centerFoot{
+  background:#f3f3f3;
+}
+/*登录*/
+.loginUp{
+  height:0.67rem;
+  background:#ff9900;
+  padding:0.74rem 0.28rem 0 0.34rem
+}
+.loginUp span:first-of-type{
+  float:left;
+  width:5.3%;
+  height:0.42rem;
+  background:url(../../../static/images/icon_back.png) no-repeat;
+  background-size:0.24rem 0.42rem;
+}
+.loginUp h5{
+  float:left;
+  width:83.7%;
+  font-size:0.37rem;
+  color:#fff;
+  text-align:center
+}
+.loginUp span:last-of-type{
+  float:right;
+  width:11%;
+  font-size:0.37rem;
+  color:#fff;
+}
+.import{
+  width:80%;
+  margin:2.46rem auto 0 auto;
+}
+.import span{
+  font-size:0.31rem;
+}
+.import input{
+  width:100%;
+  height:0.48rem;
+  border-bottom:2px solid #a3a3a3;
+}
+.import span:last-of-type{
+  display:block;
+  margin-top:0.56rem;
+}
+.forget{
+  width:100%;
+  height:0.55rem;
+  padding-top:0.43rem;
+}
+.forget a{
+  display:block;
+  float:right;
+  font-size:0.27rem;
+  color:#666666;
+}
+.log{
+  height:1.01rem;
+  background:#ff9900;
+  text-align:center;
+  font-size:0.37rem;
+  line-height:1.01rem;
+  color:#fff;
+}
+/*注册*/
+.authCode{
+  margin-bottom:0.49rem;
+}
+.authCode span{
+  float:left;
+  font-size:0.31rem;
+  color:#333;
+}
+.authCode a{
+  float:right;
+  margin-top:0.56rem;
+  color:#fe0041;
+  font-size:0.279rem;
+}
+.authCode div{
+  width:100%;
+}
+/*条款*/
+.clause span:first-of-type{
+  display:inline-block;
+  width:0.3rem;
+  height:0.3rem;
+}
+.clause input{
+  width:100%;
+  height:100%;
+  -webkit-appearance:checkbox;
+}
+.clause span:last-of-type{
+  font-size:0.27rem;
+  color:#666666;
+  margin-left:0.19rem;
+}
+.clause strong{
+  color:#333;
+}
+.clause {
+  margin-top:0.49rem;
+  margin-left:0.76rem;
+}
